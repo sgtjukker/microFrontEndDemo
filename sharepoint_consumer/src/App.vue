@@ -3,9 +3,6 @@
     <div class="headerText">
         CONSID mFE Demo
     </div>
-    <p>
-        This is a FTT Micro Frontend Test
-    </p>
     <p class="infoText">FTT component from module federation should be below</p>
     <div class="externalApp">
       <div>
@@ -39,17 +36,21 @@ import CatView from "otherRemote/NewComponent"
     
   }
   .consumingApp{
+    text-align: center;
     /* background-color: #701131;
     border-radius: 5px; */
-    border: 2px solid #f00;
     /* height: 99%;
     width: 100%; */
   }
   .externalApp{
     border-radius: 5px;
+    /* background-color: #F49E88; */
+    background-color: rgba(24,24,24,0.5);
     border: 2px dashed #F49E88;
     display:flex;
     flex-direction: row;
+    padding: 20px;
+    justify-content: center;
   }
   .externalApp div {
     margin-right: 40px;
