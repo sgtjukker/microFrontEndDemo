@@ -4,17 +4,17 @@ import federation from "@originjs/vite-plugin-federation";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  build: {
-    target: "esnext",
-    rollupOptions: {
-      input:{
-        app: './freetexttool.html'
-      }
-    }
-  },
-  server:{
-    open: './freetexttool.html'
-  },
+  // build: {
+  //   target: "esnext",
+  //   rollupOptions: {
+  //     input:{
+  //       app: './index.html'
+  //     }
+  //   }
+  // },
+  // server:{
+  //   open: './index.html'
+  // },
   plugins: [vue(),
     federation({
       name: 'host',
