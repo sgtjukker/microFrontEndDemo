@@ -1,10 +1,8 @@
 <template>
   <div class="consumingApp">
-    <p>
-      <b>
-        SHAREPOINT
-      </b>
-    </p>
+    <div class="headerText">
+        CONSID mFE Demo
+    </div>
     <p>
         This is a FTT Micro Frontend Test
     </p>
@@ -32,10 +30,20 @@ import CatView from "otherRemote/NewComponent"
 </script>
 
 <style scoped>
+  .headerText{
+    font-weight: bold;
+    font-size: 5em;
+    color:white;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    
+  }
   .consumingApp{
-    background-color: #701131;
-    border-radius: 5px;
+    /* background-color: #701131;
+    border-radius: 5px; */
     border: 2px solid #f00;
+    /* height: 99%;
+    width: 100%; */
   }
   .externalApp{
     border-radius: 5px;
