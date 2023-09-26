@@ -10,7 +10,8 @@
     "serve": "vite preview  --port 5001 --strictPort"
   },
   "dependencies": {
-    "vue": "^3.2.47"
+    "vue": "^3.2.47",
+    "windowed-observable": "^1.0.0"
   },
   "devDependencies": {
     "@originjs/vite-plugin-federation": "^1.2.3",

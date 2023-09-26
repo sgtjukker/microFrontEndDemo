@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "core-js": "^3.32.1",
-    "vue": "^3.2.47"
+    "vue": "^3.2.47",
+    "windowed-observable": "^1.0.0"
   },
   "devDependencies": {
     "@originjs/vite-plugin-federation": "^1.2.3",

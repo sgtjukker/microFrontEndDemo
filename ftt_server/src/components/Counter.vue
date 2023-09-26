@@ -13,6 +13,10 @@
 
 
 <script lang="ts">
+//import { Observable } from 'windowed-observable';
+
+// const observable = new Observable('messages');
+// observable.subscribe(handleNewMessage);
 
 export default {
   

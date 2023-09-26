@@ -1,10 +1,15 @@
 
 <template>
-  <div class="text">
+  <div class="cuteCats">
     <img
       src="../../assets/ugly.jpg"
       alt="Official logo"
       style="max-width: 200px; width: 100%; height: 300px"
+    />
+    <img
+      src="../../assets/ugly2.jpg"
+      alt="Official logo"
+      style="max-width: 200px; width: 100%; height: 300px; margin-left:20px"
     />
   </div>
 </template>
@@ -30,9 +35,11 @@ export default {
 
 
 <style scoped>
-.text {
+.cuteCats {
   color: #888;
-  font:500
+  font:500;
+  display: flex;
+  flex-direction: row;
 }
 
 .littleKitten {
